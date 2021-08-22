@@ -16,6 +16,7 @@
   height: auto;
   display: flex;
   background: var(--Dark);
+  overflow: hidden;
 }
 .logo a {
   color: #fff;
@@ -36,4 +37,15 @@
 
 .nav a:hover {
   background: var(--Blue);
+}
+
+.contact {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.contact a {
+  color: #fff;
+  margin: 10px;
 }

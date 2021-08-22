@@ -1,4 +1,4 @@
-import React, {} from 'react'
+import React, {useState} from 'react'
 import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
 const Slide = () =>{
@@ -15,6 +15,14 @@ const Slide = () =>{
                     <Link href="/">Tarif</Link>
                     <Link href="/">A Propos</Link>
                     </nav>
+                <div className={styles.contact}>
+                    <Link href="/">
+                        <a>ContactezNous</a>
+                    </Link>
+                    <Link href="/">
+                        <a>AppelNous</a>
+                    </Link>
+                </div>
                 </nav>
             </header>
         </div>
