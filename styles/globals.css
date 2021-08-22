@@ -1,16 +1,20 @@
+:root {
+  --OFF: "off";
+  --Blue: #617dde;
+  --DBlue: #315aea;
+}
+@font-face {
+  font-family: var(--OFF);
+  src: url("./../public/fonts/Offside-Regular.ttf");
+}
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: auto;
+  padding: auto;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
-  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+
+  font-family: var(--OFF);
 }
