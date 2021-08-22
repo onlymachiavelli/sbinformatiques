@@ -15,4 +15,25 @@
   width: 100%;
   height: auto;
   display: flex;
+  background: var(--Dark);
+}
+.logo a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+.logo {
+  margin: 15px;
+}
+.nav {
+  margin: 18px;
+}
+.nav a {
+  color: #fff;
+  transition-duration: 0.7s;
+  padding: 20px 15px 20px 15px;
+}
+
+.nav a:hover {
+  background: var(--Blue);
 }
