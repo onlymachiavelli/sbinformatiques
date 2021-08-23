@@ -118,6 +118,9 @@
   font-size: 15px !important;
   transition-duration: 0.5s;
 }
+.explore a:hover {
+  background: rgba(255, 255, 255, 0.459);
+}
 
 .image {
   width: 395px;
@@ -179,6 +182,20 @@
   }
   #desc_txt {
     font-size: 18px !important;
-    width: 80%;
+    width: 50%;
+  }
+  .image {
+    width: 300px;
+  }
+  .desc {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden !important;
+  }
+}
+
+@media (max-width: 794px) {
+  .desc {
+    display: block;
   }
 }
