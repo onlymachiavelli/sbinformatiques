@@ -47,5 +47,44 @@
 
 .contact a {
   color: #fff;
-  margin: 10px;
+  margin: 5px;
+  padding: 9px 25px 9px 25px;
+  border-radius: 50px;
+}
+
+/*Media Query Home !*/
+@media (max-width: 1032px) {
+  .navbar {
+    display: block !important ;
+    padding-bottom: 50px;
+  }
+  .nav {
+    display: block;
+    margin: initial;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 40px 20px;
+  }
+  .nav a {
+    display: block;
+    padding: 8px initial 8px initial;
+  }
+  .contact {
+    top: initial;
+    right: initial;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .contact a {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav a:hover {
+    background: none;
+  }
 }

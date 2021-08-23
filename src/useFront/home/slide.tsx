@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
+import {Bars} from './../SVG'
 const Slide = () =>{
     return(
         <div className={styles.slide_container}>
@@ -17,10 +18,10 @@ const Slide = () =>{
                     </nav>
                 <div className={styles.contact}>
                     <Link href="/">
-                        <a>ContactezNous</a>
+                        <a className="contacta" style={{backgroundColor:"var(--Blue)"}}>ContactezNous</a>
                     </Link>
                     <Link href="/">
-                        <a>AppelNous</a>
+                        <a className="calla" style={{backgroundColor:"#3B712E"}}>AppelNous</a>
                     </Link>
                 </div>
                 </nav>
