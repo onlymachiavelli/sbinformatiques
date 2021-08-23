@@ -54,7 +54,7 @@
 .resbtn {
   position: absolute;
   right: 20px;
-  top: 13px;
+  top: 11px;
   display: none;
 }
 .resbtn button {
@@ -62,16 +62,16 @@
   border: 2px solid #fff;
   border-radius: 3px;
   padding-top: 4px;
+  cursor: pointer;
 }
 
 /*Media Query Home !*/
 @media (max-width: 1032px) {
   .navbar {
     display: block !important ;
-    padding-bottom: 50px;
   }
   .nav {
-    display: block;
+    display: none;
     margin: initial;
     width: 100%;
     height: auto;
@@ -87,6 +87,8 @@
     position: relative;
     width: 100%;
     text-align: center;
+    margin-bottom: 50px;
+    display: none;
   }
   .contact a {
     display: block;
@@ -101,5 +103,11 @@
   }
   .resbtn {
     display: block;
+  }
+}
+@media (min-width: 1032px) {
+  .nav,
+  .contact {
+    display: block !important;
   }
 }
