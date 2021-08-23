@@ -115,6 +115,16 @@
   background: rgba(255, 255, 255, 0.288);
   border: 2px solid #fff;
   border-radius: 50px;
+  font-size: 15px !important;
+  transition-duration: 0.5s;
+}
+
+.image {
+  width: 395px;
+  height: 290px;
+  background-image: url("./../public/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*Media Query Home !*/
 @media (max-width: 1032px) {
@@ -160,5 +170,15 @@
   .nav,
   .contact {
     display: block !important;
+  }
+}
+
+@media (max-width: 1048px) {
+  #desc_title {
+    font-size: 20px !important;
+  }
+  #desc_txt {
+    font-size: 18px !important;
+    width: 80%;
   }
 }

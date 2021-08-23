@@ -49,8 +49,8 @@ const Slide = () =>{
                         <a id={styles.serv_link}>Notre Services</a>
                     </Link>
                 </article>
-                <aside>
-                    <Image src={Image1} width="400px" height="300px"/>
+                <aside className={styles.aside}>
+                    <div className={styles.image}></div>
                 </aside>
             </main>
             <div className={styles.explore}>
