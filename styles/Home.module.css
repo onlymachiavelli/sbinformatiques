@@ -88,8 +88,34 @@
   color: #fff;
   width: 600px;
   font-size: 21px;
+  margin-bottom: 40px !important;
 }
 
+#serv_link {
+  color: #fff;
+  padding: 13px 60px 13px 60px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.288);
+  transition-duration: 0.5s;
+}
+#serv_link:hover {
+  background: rgba(255, 255, 255, 0.459);
+}
+
+.explore {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+}
+.explore a {
+  color: #fff;
+  padding: 13px 60px 13px 60px;
+  background: rgba(255, 255, 255, 0.288);
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
 /*Media Query Home !*/
 @media (max-width: 1032px) {
   .navbar {
