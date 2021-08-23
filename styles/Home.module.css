@@ -51,6 +51,18 @@
   padding: 9px 25px 9px 25px;
   border-radius: 50px;
 }
+.resbtn {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  display: none;
+}
+.resbtn button {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding-top: 4px;
+}
 
 /*Media Query Home !*/
 @media (max-width: 1032px) {
@@ -86,5 +98,8 @@
   }
   .nav a:hover {
     background: none;
+  }
+  .resbtn {
+    display: block;
   }
 }
