@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
 import {Bars} from './../SVG'
 const Slide = () =>{
-    const [Nav, setNav] = useState("block")
+    const [Nav, setNav] = useState("none")
     return(
         <div className={styles.slide_container}>
             <header className={styles.header}>
