@@ -17,6 +17,8 @@
   display: flex;
   background: var(--Dark);
   overflow: hidden;
+  z-index: 1;
+  position: absolute;
 }
 .logo a {
   color: #fff;
@@ -63,6 +65,29 @@
   border-radius: 3px;
   padding-top: 4px;
   cursor: pointer;
+}
+
+.desc {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#desc_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 27px;
+  width: 500px;
+}
+#desc_txt {
+  color: #fff;
+  width: 600px;
+  font-size: 21px;
 }
 
 /*Media Query Home !*/

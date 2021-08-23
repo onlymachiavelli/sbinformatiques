@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
 import {Bars} from './../SVG'
+import Image from 'next/image'
+import Image1 from './../../../public/image1.png'
 const Slide = () =>{
     const [Nav, setNav] = useState("none")
     return(
@@ -34,6 +36,20 @@ const Slide = () =>{
                     </div>
                 </nav>
             </header>
+
+            <main className={styles.desc}>
+                <article>
+                    <p id={styles.desc_title}>
+                    Dépannage informatique & Assistance, Maintenance
+                    </p>
+                    <p id={styles.desc_txt}>
+                    Proservices Informatique est une entreprise spécialisée dans les services informatiques & prestations WordPress depuis 2011. Nos prestations vous aide à répondre à tous vos besoins ou à solutionner vos problèmes liés à 
+                    </p>
+                </article>
+                <aside>
+                    <Image src={Image1} width="420px" height="350px"/>
+                </aside>
+            </main>
         </div>
     )
 }
