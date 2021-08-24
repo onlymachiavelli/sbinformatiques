@@ -182,15 +182,16 @@
   }
   #desc_txt {
     font-size: 18px !important;
-    width: 50%;
+    width: 480px;
   }
   .image {
-    width: 300px;
-  }
-  .desc {
-    padding-left: 20px;
-    padding-right: 20px;
-    overflow: hidden !important;
+    width: 315px !important; 
+    height:230px !important;
+    margin-right:40px ;
+    }
+
+  .article{
+    margin-left:40px;
   }
 }
 

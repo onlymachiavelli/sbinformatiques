@@ -1,12 +1,12 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
-import {Bars} from './../SVG'
+import { Bars } from './../SVG'
 import Image from 'next/image'
 import Image1 from './../../../public/image1.png'
-const Slide = () =>{
+const Slide = () => {
     const [Nav, setNav] = useState("none")
-    return(
+    return (
         <div className={styles.slide_container}>
             <header className={styles.header}>
                 <nav className={styles.navbar} >
@@ -14,36 +14,36 @@ const Slide = () =>{
                         <Link href="/">SBINFORMATIQUES</Link>
                     </div>
                     <div className={styles.resbtn}>
-                        <button onClick={()=>{
+                        <button onClick={() => {
                             setNav(Nav === "none" ? "block" : "none")
                         }}>
-                            <Bars/>
+                            <Bars />
                         </button>
                     </div>
-                    <nav className={styles.nav} style={{display:Nav}} >
+                    <nav className={styles.nav} style={{ display: Nav }} >
                         <Link href="/">Acceuil</Link>
                         <Link href="/">Services</Link>
                         <Link href="/">Tarif</Link>
                         <Link href="/">A Propos</Link>
                     </nav>
-                    <div className={styles.contact} style={{display:Nav}}>
+                    <div className={styles.contact} style={{ display: Nav }}>
                         <Link href="/">
-                            <a className="contacta" style={{backgroundColor:"var(--Blue)"}}>ContactezNous</a>
+                            <a className="contacta" style={{ backgroundColor: "var(--Blue)" }}>ContactezNous</a>
                         </Link>
                         <Link href="/">
-                            <a className="calla" style={{backgroundColor:"#3B712E"}}>AppelNous</a>
+                            <a className="calla" style={{ backgroundColor: "#3B712E" }}>AppelNous</a>
                         </Link>
                     </div>
                 </nav>
             </header>
 
             <main className={styles.desc}>
-                <article>
+                <article className={styles.article}>
                     <p id={styles.desc_title}>
-                    Dépannage informatique & Assistance, Maintenance
+                        Dépannage informatique & Assistance, Maintenance
                     </p>
                     <p id={styles.desc_txt}>
-                    Proservices Informatique est une entreprise spécialisée dans les services informatiques & prestations WordPress depuis 2011. Nos prestations vous aide à répondre à tous vos besoins ou à solutionner vos problèmes liés à 
+                        Proservices Informatique est une entreprise spécialisée dans les services informatiques & prestations WordPress depuis 2011. Nos prestations vous aide à répondre à tous vos besoins ou à solutionner vos problèmes liés à
                     </p>
                     <Link href="/">
                         <a id={styles.serv_link}>Notre Services</a>
