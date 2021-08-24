@@ -211,6 +211,27 @@
 
 @media (max-width: 794px) {
   .desc {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+  }
+  .image{
+    margin-right: initial !important;
+    margin-bottom: 20px !important;
+  }
+  .article{
+    margin-left: initial !important;
+  }
+  #desc_txt, #desc_title{
+
+    text-align: center;
+    width: 80%;
+    margin:auto;
+  }
+  #desc_txt{
+    margin-top: 15px;
   }
 }
