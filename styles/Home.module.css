@@ -178,15 +178,15 @@
 
 @media (max-width: 1048px) {
   #desc_title {
-    font-size: 20px !important;
+    font-size: 20px ;
   }
   #desc_txt {
-    font-size: 18px !important;
+    font-size: 18px ;
     width: 480px;
   }
   .image {
-    width: 315px !important; 
-    height:230px !important;
+    width: 315px; 
+    height:230px ;
     margin-right:40px ;
     }
 
@@ -194,6 +194,20 @@
     margin-left:40px;
   }
 }
+
+
+@media(max-width:896px){
+  #desc_txt{
+    width:370px;
+    font-size: 15px;
+  }
+  #desc_title{
+    font-size: 19px;
+    width:80%;
+  }
+}
+
+
 
 @media (max-width: 794px) {
   .desc {
