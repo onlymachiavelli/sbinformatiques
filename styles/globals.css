@@ -12,6 +12,7 @@ html,
 body {
   margin: auto;
   padding: auto;
+  background-color: #ededed !important;
 }
 * {
   outline: none;
@@ -19,8 +20,6 @@ body {
 
   font-family: var(--OFF);
 }
-
-
 
 ::-webkit-scrollbar {
   width: 5px;
