@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
-import { Bars } from './../SVG'
+import { Bars, Handdown } from './../SVG'
 import Image from 'next/image'
 import Image1 from './../../../public/image1.png'
 const Slide = () => {
@@ -54,7 +54,9 @@ const Slide = () => {
                 </aside>
             </main>
             <div className={styles.explore}>
-                <Link href="/">Explorer Plus</Link>
+                <button>
+                    <Handdown />
+                </button>
             </div>
         </div>
     )

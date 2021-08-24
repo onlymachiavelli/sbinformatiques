@@ -109,14 +109,19 @@
   position: absolute;
   bottom: 40px;
 }
-.explore a {
+.explore button {
   color: #fff;
-  padding: 13px 60px 13px 60px;
   background: rgba(255, 255, 255, 0.288);
   border: 2px solid #fff;
-  border-radius: 50px;
+  border-radius: 50%;
   font-size: 15px !important;
+  display: block;
   transition-duration: 0.5s;
+  margin:auto;
+  width:50px;
+  height:50px;
+  padding-top:5px;
+  padding-left: 7px;
 }
 .explore a:hover {
   background: rgba(255, 255, 255, 0.459);
@@ -233,5 +238,8 @@
   }
   #desc_txt{
     margin-top: 15px;
+  }
+  .explore{
+    bottom: 20px;
   }
 }
