@@ -335,3 +335,10 @@
   margin-left: 60px;
   font-weight: 900;
 }
+
+.serv_container a {
+  color: #fff;
+  background: var(--Blue);
+  padding: 13px 60px 13px 60px;
+  border-radius: 50px;
+}
