@@ -210,6 +210,10 @@
     font-size: 19px;
     width:80%;
   }
+  #serv_link{
+    font-size: 13px;
+    padding: 10px 50px 10px 50px;
+  }
 }
 
 
@@ -243,3 +247,4 @@
     bottom: 20px;
   }
 }
+
