@@ -260,6 +260,7 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
+  padding:80px 0px 70px 0px;
   
 }
 
@@ -273,6 +274,10 @@
   border-radius:5px;
   text-align: center;
   padding-top: 30px;
+  transition-duration: 0.5s;
+}
+.card:hover{
+  margin-top:-10px !important;
 }
 #card_title{
   color:#131313;
@@ -289,4 +294,31 @@
   text-align: left;
   margin:auto;
   margin-top:20px; 
+}
+
+
+
+/*media q*/
+@media(max-width:1089px){
+  .card{
+    width:27% !important;
+  }
+  #card_title{
+    font-size: 18px;
+  }
+  #card_txt{
+    font-size:15px;
+  }
+}
+
+@media(max-width:1018px){
+  .obj_container{
+    display: block !important;
+  }
+  .card{
+    margin:initial !important;
+    width:80% !important;
+    margin:auto !important; 
+    margin-top: 20px !important;
+  }
 }
