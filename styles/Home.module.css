@@ -344,3 +344,10 @@
   padding: 13px 60px 13px 60px;
   border-radius: 50px;
 }
+
+#vplus{
+  color:#fff;
+  background:var(--Blue);
+  border-radius: 50px;
+  padding:15px 80px 15px 80px;
+}
