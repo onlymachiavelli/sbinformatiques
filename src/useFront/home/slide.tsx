@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './../../../styles/Home.module.css'
 import { Bars, Handdown } from './../SVG'
@@ -6,6 +6,9 @@ import Image from 'next/image'
 import Image1 from './../../../public/image1.png'
 const Slide = () => {
     const [Nav, setNav] = useState("none")
+    const Hash = useEffect(() => {
+        console.log("damn")
+    })
     return (
         <div className={styles.slide_container}>
             <header className={styles.header}>
@@ -54,9 +57,11 @@ const Slide = () => {
                 </aside>
             </main>
             <div className={styles.explore}>
-                <button>
-                    <Handdown />
-                </button>
+                <a href="#obj">
+                    <button>
+                        <Handdown />
+                    </button>
+                </a>
             </div>
         </div>
     )

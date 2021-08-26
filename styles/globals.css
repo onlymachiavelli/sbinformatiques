@@ -8,6 +8,10 @@
   font-family: "off";
   src: url("./../public/fonts/Offside-Regular.ttf");
 }
+
+html{
+  scroll-behavior: smooth;
+}
 html,
 body {
   margin: auto;

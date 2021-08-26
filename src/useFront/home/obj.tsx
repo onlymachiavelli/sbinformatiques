@@ -5,7 +5,7 @@ import { Computer, Btime, Settings } from './../SVG'
 const Obj = () => {
 
     return (
-        <div className={styles.obj_container}>
+        <div className={styles.obj_container} id="obj">
             <div className={styles.card}>
                 <Btime />
                 <p id={styles.card_title}>Support performant et réactif</p>
