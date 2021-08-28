@@ -438,3 +438,17 @@
     text-align:left;
   }
 }
+
+.contact_container{
+  width:100%;
+  height:auto;
+  background:#14161E;
+  padding:20px 0px 40px 0px;
+}
+
+#c_title{
+  color:#fff;
+  text-align:center;
+  font-size: 25px;
+  font-weight:bold;
+}

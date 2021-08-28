@@ -7,6 +7,7 @@ import Obj from './../src/useFront/home/obj'
 import Services from "../src/useFront/home/services"
 import Gmap from './../src/useFront/home/map'
 import Ob from './../src/useFront/home/objecti'
+import Contact from './../src/useFront/home/contact'
 const SBI = () => {
   useEffect(() => {
     document.title = "SBI | Acceuil"
@@ -17,6 +18,7 @@ const SBI = () => {
       <Obj />
       <Services />
       <Ob />
+      <Contact />
       <Gmap />
 
     </main>
