@@ -6,6 +6,7 @@ import Slide from './../src/useFront/home/slide'
 import Obj from './../src/useFront/home/obj'
 import Services from "../src/useFront/home/services"
 import Gmap from './../src/useFront/home/map'
+import Ob from './../src/useFront/home/objecti'
 const SBI = () => {
   useEffect(() => {
     document.title = "SBI | Acceuil"
@@ -15,7 +16,9 @@ const SBI = () => {
       <Slide />
       <Obj />
       <Services />
+      <Ob />
       <Gmap />
+
     </main>
   )
 }
