@@ -7,7 +7,9 @@ const Contact = () => {
         <div className={styles.contact_container}>
             <p id={styles.c_title}>Contactez Nous</p>
             <form onSubmit={() => { }}>
+                <div className={styles.input}>
 
+                </div>
             </form>
         </div>
     )
