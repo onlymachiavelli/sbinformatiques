@@ -59,7 +59,9 @@ const Slide = () => {
             <div className={styles.explore}>
                 <a href="#obj">
                     <button>
-                        <Handdown />
+                        <b id={styles.anim}>
+                            <Handdown />
+                        </b>
                     </button>
                 </a>
             </div>
