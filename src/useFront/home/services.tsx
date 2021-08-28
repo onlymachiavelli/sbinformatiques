@@ -6,7 +6,10 @@ import { Mant, Depann, Assis } from './../SVG'
 const Services = () => {
     return (
         <main style={{ backgroundColor: "#ededed", width: "100%", height: "auto" }}>
-            <p id={styles.tit}>Nos Services</p>
+            <div className={styles.b_title}>
+                Nos Services
+            </div>
+            <br />
             <div className={styles.serv_container}>
                 <div className={styles.card}>
                     <Depann />

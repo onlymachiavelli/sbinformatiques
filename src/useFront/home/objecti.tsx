@@ -5,6 +5,10 @@ import { Face } from './../SVG'
 const Ob = () => {
     return (
         <div className={styles.ob_container}>
+            <div className={styles.b_title}>
+                Notre Objectives
+            </div>
+            <br />
             <div className={styles.ob_c}>
                 <div className={styles.ob_img}>
                     <Face />

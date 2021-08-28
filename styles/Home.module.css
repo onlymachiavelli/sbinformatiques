@@ -388,4 +388,16 @@
 #o_d{
   width:800px;
   font-size: 18px;
+  margin-left:20px;
+}
+.b_title{
+  color:#fff;
+  background:var(--Blue);
+  margin:auto;
+  text-align: center;
+  padding:20px 0px 20px 0px;
+  width:300px;
+  border-radius:5px;
+  box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.555);
+  
 }
