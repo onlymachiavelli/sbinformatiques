@@ -496,3 +496,16 @@
     width: 80%;
   }
 }
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #131313;
+  display: block;
+  overflow: hidden;
+}
+.footer_logo p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 27px;
+}

@@ -8,6 +8,7 @@ import Services from "../src/useFront/home/services"
 import Gmap from './../src/useFront/home/map'
 import Ob from './../src/useFront/home/objecti'
 import Contact from './../src/useFront/home/contact'
+import Footer from './../src/useFront/footer'
 const SBI = () => {
   useEffect(() => {
     document.title = "SBI | Acceuil"
@@ -20,7 +21,7 @@ const SBI = () => {
       <Ob />
       <Contact />
       <Gmap />
-
+      <Footer/>
     </main>
   )
 }
