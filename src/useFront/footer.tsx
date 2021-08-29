@@ -11,27 +11,19 @@ const Footer = () => {
                 <div className={styles.social_info}>
                     <div className={styles.social}>
                         <a href="#">
-                            <i>
                                 <Smail/>
-                            </i>
                         </a>
 
                         <a href="#">
-                            <i>
                                 <Whatsapp/>
-                            </i>
                         </a>
 
                         <a href="#">
-                            <i>
                                 <Messenger/>
-                            </i>
                         </a>
 
                         <a href="#">
-                            <i>
                                 <Facebook/>
-                            </i>
                         </a>
                         
                     </div>

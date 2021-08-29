@@ -520,7 +520,21 @@
   justify-content: center;
 }
 .footerflex div {
-  width: 30%;
+  width: 32%;
   height: auto;
   text-align: center;
+}
+
+.social {
+  width: 100%;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a {
+  display: inline;
+  margin: 5px;
+  display: block;
 }
