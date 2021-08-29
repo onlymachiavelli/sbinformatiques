@@ -4,7 +4,7 @@ import { User, Mobile, Email,  Txt } from './../SVG'
 
 const Contact = () => {
     return (
-        <div className={styles.contact_container}>
+        <div className={styles.contact_container} id="contact">
             <p id={styles.c_title}>Contactez Nous</p>
             <form onSubmit={() => { }}>
                 <div className={styles.input}>
@@ -38,6 +38,7 @@ const Contact = () => {
                 <div style={{width:"100%", textAlign:"center"}}>
                     <textarea placeholder="Votre Message"></textarea>
                 </div>
+                <button type="submit" className={styles.send_btn}>Envoyer</button>
             </form>
         </div>
     )
