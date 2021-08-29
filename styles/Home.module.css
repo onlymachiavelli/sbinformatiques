@@ -503,9 +503,24 @@
   background: #131313;
   display: block;
   overflow: hidden;
+  padding-bottom: 40px;
 }
 .footer_logo p {
   color: #fff;
   font-weight: bold;
   font-size: 27px;
+  margin-left: 20px;
+}
+
+.footerflex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerflex div {
+  width: 30%;
+  height: auto;
+  text-align: center;
 }
