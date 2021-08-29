@@ -490,3 +490,9 @@
   cursor: pointer;
   box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.63);
 }
+@media (max-width: 858px) {
+  .input,
+  .contact_container textarea {
+    width: 80%;
+  }
+}

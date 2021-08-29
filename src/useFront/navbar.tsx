@@ -24,7 +24,7 @@ const Navbar = () =>{
                         <Link href="/">A Propos</Link>
                     </nav>
                     <div className={styles.contact} style={{ display: Nav }}>
-                        <Link href="/Cont">
+                        <Link href="/ContactUs/">
                             <a className="contacta" style={{ backgroundColor: "var(--Blue)" }}>ContactezNous</a>
                         </Link>
                         <Link href="/contact">
