@@ -453,7 +453,24 @@
   font-weight:bold;
 }
 .input{
-  width:300px;
+  width:600px;
+  height:60px;
+  background:#494C58;
+  margin:auto;
+  display:flex;
+  border-radius:5px;
 
+  align-items: center;
+  padding-left:20px;
   
+  margin-top:20px;
+}
+.input input{
+  background:none;
+  border:none;
+  margin-left:10px;
+  width:83%;
+  padding:10px;
+  color:#fff;
+
 }
