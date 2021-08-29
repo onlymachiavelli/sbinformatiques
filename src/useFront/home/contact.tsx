@@ -1,6 +1,6 @@
 import React, { } from 'react'
 import styles from './../../../styles/Home.module.css'
-import { User, Mobile, Email } from './../SVG'
+import { User, Mobile, Email,  Txt } from './../SVG'
 
 const Contact = () => {
     return (
@@ -11,28 +11,32 @@ const Contact = () => {
                     <div style={{ marginTop: "3px", }}>
                         <User />
                     </div>
-                    <input type="text" name="" placeholder="Votre Nom Complet" />
+                    <input type="text" name="" placeholder="Votre Nom Complet" required />
                 </div>
 
                 <div className={styles.input}>
                     <div style={{ marginTop: "3px", }}>
                         <Mobile />
                     </div>
-                    <input type="text" name="" placeholder="Votre Nom Complet" />
+                    <input type="text" name="" placeholder="Votre Num de Tel" required />
                 </div>
 
                 <div className={styles.input}>
                     <div style={{ marginTop: "3px", }}>
-                        <Mobile />
+                        <Email />
                     </div>
-                    <input type="text" name="" placeholder="Votre Nom Complet" />
+                    <input type="text" name="" placeholder="Votre Email" required />
                 </div>
 
                 <div className={styles.input}>
                     <div style={{ marginTop: "3px", }}>
-                        <Mobile />
+                        <Txt />
                     </div>
-                    <input type="text" name="" placeholder="Votre Nom Complet" />
+                    <input type="text" name="" placeholder="Objectif" required />
+                </div>
+
+                <div style={{width:"100%", textAlign:"center"}}>
+                    <textarea placeholder="Votre Message"></textarea>
                 </div>
             </form>
         </div>

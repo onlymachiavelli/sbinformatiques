@@ -123,7 +123,6 @@
   padding-top: 5px;
   padding-left: 7px;
   cursor: pointer;
-
 }
 
 .explore a:hover {
@@ -318,8 +317,8 @@
     width: 80% !important;
     margin: auto !important;
     margin-top: 20px !important;
-    height:auto !important;
-    padding-bottom:60px;
+    height: auto !important;
+    padding-bottom: 60px;
   }
 }
 
@@ -347,130 +346,134 @@
   border-radius: 50px;
 }
 
-#vplus{
-  color:#fff;
-  background:var(--Blue);
+#vplus {
+  color: #fff;
+  background: var(--Blue);
   border-radius: 50px;
-  padding:15px 80px 15px 80px;
+  padding: 15px 80px 15px 80px;
 }
-
-
-
-
 
 /*OB*/
-.ob_container{
-  width:100%;
-  height:auto;
-  padding:20px 0px 60px 0px;
-
+.ob_container {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 60px 0px;
 }
 
-.ob_c{
+.ob_c {
   width: 80%;
-  height:300px;
-  background:#fff;
-  margin:auto;
-  border-radius:20px;
-  box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.555);
+  height: 300px;
+  background: #fff;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.555);
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   margin-top: 30px;
 }
-.ob_img{
-  margin:0px 20px 0px 0px;
+.ob_img {
+  margin: 0px 20px 0px 0px;
 }
-#o_title{
-  color:#131313;
-  font-size:25px;
-  font-weight:bold;
+#o_title {
+  color: #131313;
+  font-size: 25px;
+  font-weight: bold;
 }
-#o_d{
-  width:800px;
+#o_d {
+  width: 800px;
   font-size: 18px;
-  margin-left:20px;
+  margin-left: 20px;
 }
-.b_title{
-  color:#fff;
-  background:var(--Blue);
-  margin:auto;
+.b_title {
+  color: #fff;
+  background: var(--Blue);
+  margin: auto;
   text-align: center;
-  padding:20px 0px 20px 0px;
-  width:300px;
-  border-radius:5px;
-  box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.555);
-  
+  padding: 20px 0px 20px 0px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.555);
 }
-@media(max-width:1408px){
-  .ob_c{
-    width:90%;
+@media (max-width: 1408px) {
+  .ob_c {
+    width: 90%;
   }
 }
 
-@media(max-width:1163px){
-  #o_title{
+@media (max-width: 1163px) {
+  #o_title {
     font-size: 20px;
   }
-  #o_d{
+  #o_d {
     font-size: 15px;
-    width:600px;
+    width: 600px;
   }
-  .ob_c{
+  .ob_c {
     padding-left: 20px;
   }
 }
 
-@media(max-width:923px){
-  .ob_c{
+@media (max-width: 923px) {
+  .ob_c {
     height: auto !important;
     display: flex;
     flex-direction: column;
-    text-align:center;
-    padding-left:0px !important;
-    padding-top:30px;
-    padding-bottom:50px;
+    text-align: center;
+    padding-left: 0px !important;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
-  #o_d{
-    width:80%;
+  #o_d {
+    width: 80%;
     margin-left: 0px !important;
-    margin:auto !important;
-    text-align:left;
+    margin: auto !important;
+    text-align: left;
   }
 }
 
-.contact_container{
-  width:100%;
-  height:auto;
-  background:#14161E;
-  padding:20px 0px 40px 0px;
+.contact_container {
+  width: 100%;
+  height: auto;
+  background: #14161e;
+  padding: 20px 0px 40px 0px;
 }
 
-#c_title{
-  color:#fff;
-  text-align:center;
+#c_title {
+  color: #fff;
+  text-align: center;
   font-size: 25px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.input{
-  width:600px;
-  height:60px;
-  background:#494C58;
-  margin:auto;
-  display:flex;
-  border-radius:5px;
+.input {
+  width: 600px;
+  height: 60px;
+  background: #494c58;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
 
   align-items: center;
-  padding-left:20px;
-  
-  margin-top:20px;
-}
-.input input{
-  background:none;
-  border:none;
-  margin-left:10px;
-  width:83%;
-  padding:10px;
-  color:#fff;
+  padding-left: 20px;
 
+  margin-top: 20px;
+}
+.input input {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  width: 83%;
+  padding: 10px;
+  color: #fff;
+}
+.contact_container textarea {
+  margin-top: 20px;
+  background: #494c58;
+  border: none;
+  width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  color: #fff;
+  padding-top: 15px !important;
 }
