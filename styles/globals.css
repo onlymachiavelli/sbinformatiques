@@ -9,7 +9,7 @@
   src: url("./../public/fonts/Offside-Regular.ttf");
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 html,
@@ -38,8 +38,10 @@ body {
   background: #555;
 }
 
+::placeholder {
+  color: #fff;
+}
 
-::placeholder{
-  color:#fff;
-  
+svg {
+  cursor: pointer;
 }

@@ -512,4 +512,29 @@
   font-size: 30px;
 }
 .footer_btns {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.footer_btns a {
+  color: #fff;
+  display: block;
+  margin-top: 20px !important;
+  padding: 17px 0px 17px 0px;
+  width: 300px;
+  margin: auto;
+  border-radius: 50px;
+}
+.social_media {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.social_media a {
+  margin: 5px;
+}
+#phonen {
+  color: #fff;
+  text-align: center;
 }
