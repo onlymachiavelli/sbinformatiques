@@ -7,7 +7,7 @@ import Image1 from './../../../public/image1.png'
 import Navbar from '../navbar'
 const Slide = () => {
     return (
-        <div className={styles.slide_container}>
+        <div className={styles.slide_container} id="home">
             <Navbar/>
 
             <main className={styles.desc}>

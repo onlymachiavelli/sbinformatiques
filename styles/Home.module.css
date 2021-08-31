@@ -500,7 +500,7 @@
 .footer {
   width: 100%;
   height: auto;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px 10px 0px;
   background: #14161e;
 }
 .footer_logo {
@@ -539,5 +539,24 @@
   text-align: center;
 }
 .copy {
-  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.copy p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.upbtn {
+  padding: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: var(--Blue);
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.637);
+  float: right;
+  margin-top: -50px;
+  margin-right: 20px;
 }

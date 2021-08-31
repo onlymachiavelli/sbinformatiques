@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './../../styles/Home.module.css'
-import {Face, Facebook , Messenger, Smail, Whatsapp} from './SVG'
+import {Face, Facebook , Messenger, Smail, Whatsapp, Up} from './SVG'
 import Link from 'next/link'
 const Footer = () => {
     let date = new Date()
@@ -40,7 +40,12 @@ const Footer = () => {
             </div>
             <p id={styles.phonen}>51 920 215 / 70 720 215</p>
             <div className={styles.copy}>
-                    <p></p>
+                    <p>SBI &copy; {year}</p>
+                    <Link href="#home">
+                        <a  className={styles.upbtn}>
+                        <Up/>
+                        </a>
+                    </Link>
             </div>
         </footer>
     )
