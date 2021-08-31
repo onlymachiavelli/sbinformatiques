@@ -362,7 +362,7 @@
 
 .ob_c {
   width: 80%;
-  height: 300px;
+  height: 250px;
   background: #fff;
   margin: auto;
   border-radius: 20px;
@@ -500,41 +500,16 @@
 .footer {
   width: 100%;
   height: auto;
-  background: #131313;
-  display: block;
-  overflow: hidden;
-  padding-bottom: 40px;
+  padding: 40px 0px 40px 0px;
+  background: #14161e;
 }
-.footer_logo p {
-  color: #fff;
-  font-weight: bold;
-  font-size: 27px;
-  margin-left: 20px;
-}
-
-.footerflex {
+.footer_logo {
   width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footerflex div {
-  width: 32%;
-  height: auto;
   text-align: center;
 }
-
-.social {
-  width: 100%;
-  text-align: center !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.footer_logo b {
+  color: #fff;
+  font-size: 30px;
 }
-
-.social a {
-  display: inline;
-  margin: 5px;
-  display: block;
+.footer_btns {
 }
