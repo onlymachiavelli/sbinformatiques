@@ -538,3 +538,6 @@
   color: #fff;
   text-align: center;
 }
+.copy {
+  display: flex;
+}

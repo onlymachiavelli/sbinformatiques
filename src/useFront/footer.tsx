@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './../../styles/Home.module.css'
 import {Face, Facebook , Messenger, Smail, Whatsapp} from './SVG'
 import Link from 'next/link'
 const Footer = () => {
+    let date = new Date()
+    const year = date.getFullYear()
+    
     return (
         <footer className={styles.footer}>
             <div className={styles.footer_logo}>
@@ -36,7 +39,9 @@ const Footer = () => {
                 </Link>
             </div>
             <p id={styles.phonen}>51 920 215 / 70 720 215</p>
-            <div className={styles.copy}></div>
+            <div className={styles.copy}>
+                    <p></p>
+            </div>
         </footer>
     )
 }
