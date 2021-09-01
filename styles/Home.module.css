@@ -573,4 +573,31 @@
   display:flex;
   align-items:center;
   justify-content:center;
+  
+}
+.service_card{
+  width:430px;
+  height:450px;
+  background:#fff;
+  margin:10px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top:50px;
+
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.486);;
+}
+#titleserv{
+  color:#fff;
+}
+#serv_title{
+  color:#131313;
+  font-weight: bold;
+
+  font-size:20px;
+}
+#serv_description{
+  text-align:left;
+  width:90%;
+  margin:auto;
+  font-size: 18px;
 }
