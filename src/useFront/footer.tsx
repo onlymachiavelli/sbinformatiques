@@ -16,17 +16,17 @@ const Footer = () => {
                 <Link href=""><a style={{background:"#3B712E"}}>Appel Nous</a></Link>
             </div>
             <div className={styles.social_media}>
-                <Link href="">
-                    <Smail/>
+                <Link href="mailto:sbinformatiques@gmail.com">
+                    <a><Smail/></a>
+                </Link>&nbsp;
+                <Link href="https://wa.me/51920215">
+                    <a><Whatsapp/></a>
                 </Link>&nbsp;
                 <Link href="">
-                    <Whatsapp/>
+                    <a><Messenger/></a>
                 </Link>&nbsp;
-                <Link href="">
-                    <Messenger/>
-                </Link>&nbsp;
-                <Link href="">  
-                    <Facebook/>
+                <Link href="https://www.facebook.com/SBInformatiques/">  
+                    <a><Facebook/></a>
                 </Link>
                 <br/><br/>
                 <Link href="">
