@@ -20,7 +20,6 @@ const Navbar = () =>{
                     <nav className={styles.nav} style={{ display: Nav }} >
                         <Link href="/">Acceuil</Link>
                         <Link href="/services">Services</Link>
-                        <Link href="/tarif">Tarif</Link>
                         <Link href="/about">A Propos</Link>
                     </nav>
                     <div className={styles.contact} style={{ display: Nav }}>
