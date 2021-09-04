@@ -18,7 +18,7 @@ const Slide = () => {
                     <p id={styles.desc_txt}>
                         Proservices Informatique est une entreprise spécialisée dans les services informatiques & prestations WordPress depuis 2011. Nos prestations vous aide à répondre à tous vos besoins ou à solutionner vos problèmes liés à
                     </p>
-                    <Link href="/">
+                    <Link href="/services">
                         <a id={styles.serv_link}>Notre Services</a>
                     </Link>
                 </article>
