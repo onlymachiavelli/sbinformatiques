@@ -27,7 +27,7 @@ const Navbar = () =>{
                         <Link href="/contact">
                             <a className="contacta" style={{ backgroundColor: "var(--Blue)" }}>ContactezNous</a>
                         </Link>
-                        <Link href="/contact">
+                        <Link href="tel:51920215">
                             <a className="calla" style={{ backgroundColor: "#3B712E" }}>AppelNous</a>
                         </Link>
                     </div>

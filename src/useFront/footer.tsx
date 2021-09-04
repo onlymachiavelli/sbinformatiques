@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div className={styles.footer_btns}>
                 <Link href=""><a style={{background:"var(--Blue)"}} >Commander Un Devis</a></Link>
-                <Link href=""><a style={{background:"#3B712E"}}>Appel Nous</a></Link>
+                <Link href="tel:51920215"><a style={{background:"#3B712E"}}>Appel Nous</a></Link>
             </div>
             <div className={styles.social_media}>
                 <Link href="mailto:sbinformatiques@gmail.com">
