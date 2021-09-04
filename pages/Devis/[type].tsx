@@ -10,9 +10,11 @@ const IsIn = (Route:String)=> {
 
 
 const Devis = () =>{
+    const Route = useRouter()
+    const {type}  = Route.query
     return(
         <div>
-
+            {type}
         </div>
     )
 }
