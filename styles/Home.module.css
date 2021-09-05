@@ -107,7 +107,7 @@
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: -50px;
+  bottom: 5px;
 }
 .explore button {
   color: #fff;
@@ -220,7 +220,7 @@
 
 @media (max-width: 794px) {
   .slide_container{
-    height:120vh !important;
+    height:110vh !important;
     display: block !important;
   }
   .desc {
@@ -252,6 +252,8 @@
   }
   .desc {
     padding-top: 50px;
+  }.explore{
+    display: none;
   }
 }
 
