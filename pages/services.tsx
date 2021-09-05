@@ -9,12 +9,12 @@ const Services = () => {
         document.title = "SBI | NOS services"
     })
     return (
-        <div className="">
+        <div className={styles.mainserv}>
             <Navbar />
 
             <div className={styles.service_container}>
                 <br /><br /><br /><br />
-                <div className={styles.b_title}>
+                <div className={styles.b_title} style={{ backgroundColor: "#fff", color: "var(--Blue)", fontWeight: "bold" }}>
                     Nos Services
                 </div>
                 <br />

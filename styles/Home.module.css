@@ -636,3 +636,12 @@
     margin-top: 20px !important;
   }
 }
+.mainserv{
+
+  background: linear-gradient(
+    103.95deg,
+    var(--Blue) 54.12%,
+    rgba(9, 31, 235, 0) 203.99%
+  );
+
+}
