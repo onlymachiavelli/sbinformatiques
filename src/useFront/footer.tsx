@@ -12,11 +12,11 @@ const Footer = () => {
                 <b>SBINFORMATIQUES</b>
             </div>
             <div className={styles.footer_btns}>
-                <Link href=""><a style={{ background: "var(--Blue)" }} >Commander Un Devis</a></Link>
+                <Link href="mailto:Contact@sbinformatique.tn"><a style={{ background: "var(--Blue)" }} >Commander Un Devis</a></Link>
                 <Link href="tel:51920215"><a style={{ background: "#3B712E" }}>Appel Nous</a></Link>
             </div>
             <div className={styles.social_media}>
-                <Link href="mailto:sbinformatiques@gmail.com">
+                <Link href="mailto:Contact@sbinformatique.tn">
                     <a><Smail /></a>
                 </Link>&nbsp;
                 <Link href="https://wa.me/21651920215">
@@ -29,13 +29,13 @@ const Footer = () => {
                     <a><Facebook /></a>
                 </Link>
                 <br /><br />
-                <Link href="">
+                <Link href="mailto:Contact@sbinformatique.tn">
                     <a
                         style={{
                             color: "#fff",
                             textDecoration: "underline",
                         }}
-                    >sbinforatiques@crocodile.com</a>
+                    >contact@sbinformatique.tn</a>
                 </Link>
             </div>
             <p id={styles.phonen}>51 920 215 / 70 720 215</p>

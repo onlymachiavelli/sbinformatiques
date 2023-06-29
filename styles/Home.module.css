@@ -130,16 +130,16 @@
 }
 
 .image {
-  width: 395px;
-  height: 310px;
-  background-image: url("./../public/image1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 400px;
+  height: 350px;
 }
 /*Media Query Home !*/
 @media (max-width: 1032px) {
   .navbar {
     display: block !important ;
+  }
+  .image{
+    padding-bottom:50px;
   }
   .nav {
     display: none;

@@ -14,21 +14,21 @@ const Services = () => {
                 <div className={styles.card}>
                     <Depann />
                     <p id={styles.card_title}>Depannage Informatique</p>
-                    <p id={styles.card_txt}>Proservices Informatique assure un support d’assistance...</p>
+                    <p id={styles.card_txt}>Dépannage informatique rapide et efficace...</p>
                     <br /><br />
                     <Link href="">Devis</Link>
                 </div>
                 <div className={styles.card}>
                     <Assis />
                     <p id={styles.card_title}>Assistance Informatique</p>
-                    <p id={styles.card_txt}>Proservices Informatique assure un support d’assistance...</p>
+                    <p id={styles.card_txt}>Assistance informatique professionnelle et fiable...</p>
                     <br /><br />
                     <Link href="">Devis</Link>
                 </div>
                 <div className={styles.card}>
                     <Mant />
                     <p id={styles.card_title}>Maintenance Informatique</p>
-                    <p id={styles.card_txt}>Proservices Informatique assure un support d’assistance...</p>
+                    <p id={styles.card_txt}>Services de maintenance informatique fiables et réguliers...</p>
                     <br /><br />
                     <Link href="">Devis</Link>
                 </div>

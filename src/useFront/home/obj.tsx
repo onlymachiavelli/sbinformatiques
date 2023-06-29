@@ -10,22 +10,20 @@ const Obj = () => {
                 <Btime />
                 <p id={styles.card_title}>Support performant et réactif</p>
                 <p id={styles.card_txt}>
-                    Proservices Informatique assure un support d’assistance informatique 7 jours sur 7 de 8 heures à 22 heures, en vous accueillant par e-mail ou ticket d’assistance informatique pour vous apporter des solutions
-                </p>
+                Un support performant et réactif pour tous vos besoins informatiques. Nos techniciens compétents sont là pour résoudre rapidement vos problèmes. </p>
             </div>
             <div className={styles.card}>
                 <Settings />
                 <p id={styles.card_title}>Intervention à distance et à domicile</p>
                 <p id={styles.card_txt}>
-                    Proservices Informatique assure un support d’assistance informatique 7 jours sur 7 de 8 heures à 22 heures, en vous accueillant par e-mail ou ticket d’assistance informatique pour vous apporter des solutions
-                </p>
+
+                Intervention rapide et pratique, que ce soit à distance ou à domicile. Nous offrons des services d'assistance flexibles pour résoudre vos problèmes informatiques où que vous soyez.                </p>
             </div>
             <div className={styles.card}>
                 <Computer />
                 <p id={styles.card_title}>Solutions informatique</p>
                 <p id={styles.card_txt}>
-                    Proservices Informatique assure un support d’assistance informatique 7 jours sur 7 de 8 heures à 22 heures, en vous accueillant par e-mail ou ticket d’assistance informatique pour vous apporter des solutions
-                </p>
+                Découvrez nos solutions informatiques complètes. Nous offrons des services de réparation, de maintenance et de support technique pour répondre à tous vos besoins informatiques.                 </p>
             </div>
         </div>
     )
